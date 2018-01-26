@@ -1,0 +1,16 @@
+body {
+    height: 3000px;
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+}
+
+.btn {
+    display: block;
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+}
+
+@media screen and (min-height:1000px) {
+    .btn a {display: none;}
+}
